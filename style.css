@@ -1,0 +1,97 @@
+body {
+	background-color: rgb(240, 240, 240);
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+h1, h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	color: rgb(39, 14, 71);
+	font-weight: 400;
+}
+
+h2 {
+	color: rgb(185,170,68);
+	font-size: 18px;
+	font-weight: 500;
+}
+a { 
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	text-decoration: none; 
+	color: rgb(29, 57, 87);
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: rgb(112, 133, 155);
+}
+
+#photo_profile {
+	border-radius: 50%;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px){
+	.container{ 
+	width: 700px; }
+}
+
+@media (max-width: 720px){
+	.container{ 
+	width: 500px; }
+}
+
+@media (max-width: 540px){
+	.container{ 
+	width: 400px; }
+}
+
+.card_white{
+	background: white;
+	padding: 60px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+	border-radius: 7px;
+	text-align: center;
+}
+.btn_lightblue {
+	background-color: rgb(192, 201, 213);
+	padding: 15px 20px;
+	border-radius: 7px;
+}
+.btn_lightblue:hover {
+	background-color: #1E1D57;
+	color: white;
+	border-radius: 10px;
+}
+
+.list_inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list_inline li{
+	display: inline;
+	padding: 10px;
+}
+.list_inline i{
+	font-size: 50px;
+	color: rgb(220, 220, 220);
+}
+.list_inline i:hover {
+	color: rgb(100, 100, 100);
+}
+#introduction p{
+	margin-bottom: 40px;
+}
